@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="1">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="2"
+        android:id="@+id/lay1">
+
+        <Button
+            android:text="@string/comienzo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/comenzar" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/operacion" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="1"
+        android:id="@+id/lay2">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/escriba"
+            android:ems="10"
+            android:id="@+id/solucion" />
+
+        <Button
+            android:text="@string/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:id="@+id/ok" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="2"
+        android:id="@+id/lay3">
+
+        <TextView
+            android:text="@string/optotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/opSuperadas"
+            android:textSize="18sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:text=""
+            android:ems="10"
+            android:id="@+id/total" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_rowWeight="2"
+        android:id="@+id/lay4">
+        <ProgressBar
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:max="60"
+            android:progress="1"
+            android:visibility="visible"
+            android:indeterminate="false" />
+    </LinearLayout>
+
+</GridLayout>

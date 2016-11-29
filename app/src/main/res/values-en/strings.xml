@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cabecera">CANVAS MENU</string>
+    <string name="descripcionCab">Choose an option</string>
+    <string name="lienzoDibujar">Canvas</string>
+    <string name="minijuego">Minigame</string>
+    <string name="barraProg">Progressbar activated (1 minute)</string>
+    <string name="comienzo">Begin</string>
+    <string name="numNoValido">Invalid number</string>
+    <string name="ok">OK</string>
+    <string name="optotal">Calculations done:</string>
+    <string name="timeOver">Time is over</string>
+    <string name="lienzoGaleria">Gallery</string>
+    <string name="escriba">write result...</string>
+    <string name="lbColor">Color:</string>
+    <string name="lbEstilo">Style:</string>
+    <string name="lbFigura">Figure:</string>
+    <string name="lbPos">Location:</string>
+    <string name="lbWel">WELCOME</string>
+    <string name="lbWel2">Select one option on the menu</string>
+    <string name="lbWel3">You can choose between</string>
+    <string name="lbWel4">a calculation minigame</string>
+    <string name="lbWel5">or a canvas to draw</string>
+    <string name="botonAl">RANDOM</string>
+    <string name="botonGen">GENERATE</string>
+    <string name="estBo">Stroke</string>
+    <string name="estRe">Fill</string>
+    <string name="estReBo">Fill and stroke</string>
+    <string name="opcircle">Circle</string>
+    <string name="opline">Line</string>
+    <string name="opovalo">Oval</string>
+    <string name="oprectangle">Rectangle</string>
+    <string name="opabajo">Bottom</string>
+    <string name="oparriba">Top</string>
+    <string name="opder">Rigth</string>
+    <string name="opizq">Left</string>
+    <string name="opradio">Radius</string>
+    <string name="bokpos">Confirm pos.</string>
+</resources>

@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name" translatable="false">EjemploDrawer</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="cabecera">MENU DE LIENZO</string>
+    <string name="descripcionCab">Seleccione una opción</string>
+    <string name="minijuego">Minijuego</string>
+    <string name="lienzoDibujar">Lienzo</string>
+    <string name="comienzo">Comenzar</string>
+    <string name="ok">OK</string>
+    <string name="optotal">Operaciones superadas: </string>
+    <string name="numNoValido">Numero no valido</string>
+    <string name="barraProg">Barra de progreso activa (1 minuto)</string>
+    <string name="timeOver">Se acabo el tiempo</string>
+    <string name="escriba">escriba solucion...</string>
+    <string name="lbColor">Color: </string>
+    <string name="lbEstilo">Estilo: </string>
+    <string name="lbFigura">Figura: </string>
+    <string name="lbPos">Posicion: </string>
+    <string name="lbWel">BIENVENIDO</string>
+    <string name="lbWel2">Seleccione una opcion del menu</string>
+    <string name="lbWel3">Escoja entre </string>
+    <string name="lbWel4">un minijuego de calculo</string>
+    <string name="lbWel5">y un lienzo para dibujar</string>
+    <string name="botonGen">GENERAR</string>
+    <string name="botonAl">ALEATORIO</string>
+    <string name="bokpos">Confirmar pos.</string>
+    <string name="estRe">Rellenar</string>
+    <string name="estBo">Bordear</string>
+    <string name="estReBo">Rellenar y bordear</string>
+
+    <string name="opcircle">Circulo</string>
+    <string name="opovalo">Ovalo</string>
+    <string name="opline">Linea</string>
+    <string name="oprectangle">Rectangulo</string>
+
+    <string name="opradio">Radio</string>
+    <string name="opizq">Izquierda</string>
+    <string name="oparriba">Arriba</string>
+    <string name="opder">Derecha</string>
+    <string name="opabajo">Abajo</string>
+
+</resources>
